@@ -1,0 +1,7 @@
+^Makefile$
+^Makefile[.]old$
+^blib/
+^App-deckjs2pdf-
+^pm_to_blib$
+[.]gitignore
+^[.]git/

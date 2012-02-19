@@ -1,0 +1,7 @@
+bin/deckjs2pdf
+Changes
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+README
+t/dummy.t

@@ -1,0 +1,5 @@
+Makefile
+pm_to_blib
+blib
+App-deckjs2pdf-*.tar.gz
+Makefile.old

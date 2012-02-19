@@ -1,0 +1,32 @@
+ABOUT
+-----
+deckjs2pdf is an deck.js presentation to PDF converter. It uses WebKit for
+generating the slides and for capturing each slide. The slides are then all
+merged into a single PDF file.
+
+All rendering is done through WebKit which means that CSS, JavaScript, fonts,
+images, etc are all loaded and rendered properly before the conversion to PDF is
+done.
+
+
+INSTALLATION
+------------
+
+perl Makefile.PL
+make
+sudo make install
+
+
+USAGE
+-----
+deckjs2pdf URL
+
+
+AUTHOR
+------
+Written by Emmanuel Rodriguez <potyl@cpan.org>
+
+
+COPYRIGH
+--------
+Copyright (c) 2011 Emmanuel Rodriguez. License same as Perl.
