@@ -12,6 +12,7 @@ sub main {
     WriteMakefile(
         AUTHOR       => 'Emmanuel Rodriguez <potyl@cpan.org>',
         NAME         => 'App::deckjs2pdf',
+        ABSTRACT     => "Convert a Deck.js presentation to PDF",
         VERSION_FROM => $script,
         PREREQ_PM => {
             'Getopt::Long'   => 0,
