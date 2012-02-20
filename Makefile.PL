@@ -10,9 +10,9 @@ sub main {
     my $script = catfile('bin', 'deckjs2pdf');
 
     WriteMakefile(
-        AUTHOR       => 'Emmanuel Rodriguez <potyl@cpan.org>',
         NAME         => 'App::deckjs2pdf',
         ABSTRACT     => "Convert a Deck.js presentation to PDF",
+        AUTHOR       => 'Emmanuel Rodriguez <potyl@cpan.org>',
         VERSION_FROM => $script,
         PREREQ_PM => {
             'Getopt::Long'   => 0,
