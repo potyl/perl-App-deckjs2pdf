@@ -58,7 +58,7 @@ use Gtk3::WebKit;
 use Cairo::GObject;
 use Glib ':constants';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 sub main {
