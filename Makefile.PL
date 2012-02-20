@@ -27,9 +27,11 @@ sub main {
         EXE_FILES => [ 'bin/deckjs2pdf' ],
 
         META_MERGE => {
-            homepage   => $site,
-            bugtracker => "$site/issues",
-            repository =>  $site,
+            resources => {
+                homepage   => $site,
+                bugtracker => "$site/issues",
+                repository =>  $site,
+            },
         },
     );
 
